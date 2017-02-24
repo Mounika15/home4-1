@@ -41,8 +41,9 @@ $statement->closeCursor();
     
     </table>
 
-    <h2>Add Category</h2>
-    
+   <!-- <h2>Add Category</h2>-->
+   <p><a href="add_category_form.php">Add Category</a>
+     	
     <!-- add code for the form here -->
     
     <br>
