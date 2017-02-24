@@ -27,6 +27,13 @@ $statement->closeCursor();
             <th>Name</th>
             <th>&nbsp;</th>
         </tr>
+
+	<?php foreach ($categories as $category) : ?>
+	     <tr>
+	     <td><?php echo $category['categoryName']; ?></td>
+	     </tr>
+	<?php endforeach; ?>
+
     
     </table>
 
