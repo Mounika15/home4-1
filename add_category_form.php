@@ -11,7 +11,7 @@
 	<h1>Add Category</h1>
 	<form action="add_category.php" method="post"id="add_category_form">
 	<label>Category:</label>
-	<input type="text" name="code"><br>
+	<input type="text" name="categoryName"><br>
 	<label>&nbsp;</label><br>
 	<input type="submit" value="Add Category"><br>
 	</form>
